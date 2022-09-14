@@ -12,8 +12,7 @@ function Minimize2() {
       strokeLinejoin='round'
       strokeWidth='2'
       viewBox='0 0 24 24'
-      xmlns='http://www.w3.org/2000/svg'
-    >
+      xmlns='http://www.w3.org/2000/svg'>
       <polyline points='4 14 10 14 10 20' />
       <polyline points='20 10 14 10 14 4' />
       <line x1='14' x2='21' y1='10' y2='3' />

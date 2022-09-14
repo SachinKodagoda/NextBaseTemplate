@@ -12,8 +12,7 @@ function UploadCloud() {
       strokeLinejoin='round'
       strokeWidth='2'
       viewBox='0 0 24 24'
-      xmlns='http://www.w3.org/2000/svg'
-    >
+      xmlns='http://www.w3.org/2000/svg'>
       <polyline points='16 16 12 12 8 16' />
       <polyline points='16 16 12 12 8 16' />
       <line x1='12' x2='12' y1='12' y2='21' />

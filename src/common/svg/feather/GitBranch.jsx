@@ -12,8 +12,7 @@ function GitBranch() {
       strokeLinejoin='round'
       strokeWidth='2'
       viewBox='0 0 24 24'
-      xmlns='http://www.w3.org/2000/svg'
-    >
+      xmlns='http://www.w3.org/2000/svg'>
       <line x1='6' x2='6' y1='3' y2='15' />
       <circle cx='18' cy='6' r='3' />
       <circle cx='6' cy='18' r='3' />

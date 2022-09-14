@@ -12,8 +12,7 @@ function CloudSnow() {
       strokeLinejoin='round'
       strokeWidth='2'
       viewBox='0 0 24 24'
-      xmlns='http://www.w3.org/2000/svg'
-    >
+      xmlns='http://www.w3.org/2000/svg'>
       <path d='M20 17.58A5 5 0 0 0 18 8h-1.26A8 8 0 1 0 4 16.25' />
       <line x1='8' x2='8.01' y1='16' y2='16' />
       <line x1='8' x2='8.01' y1='20' y2='20' />

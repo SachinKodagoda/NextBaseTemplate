@@ -1,7 +1,8 @@
+import { useRouter } from 'next/router';
+
 import en from '@translations/english';
 import de from '@translations/german';
 import { TTranslations } from '@ts/localize';
-import { useRouter } from 'next/router';
 
 export const Translations = (): TTranslations => {
   const router = useRouter();

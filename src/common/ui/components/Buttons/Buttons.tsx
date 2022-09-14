@@ -1,6 +1,8 @@
-import { colors } from '@theme/baseTheme';
 import React from 'react';
+
 import styled from 'styled-components';
+
+import { colors } from '@theme/baseTheme';
 
 type TProps = { type: string; text: string; className?: string; onClick?: () => void };
 function Buttons({ className = '', onClick, text, type }: TProps): JSX.Element {

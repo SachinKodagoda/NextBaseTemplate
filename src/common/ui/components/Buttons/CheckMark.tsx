@@ -1,6 +1,8 @@
-import { colors } from '@theme/baseTheme';
 import React from 'react';
+
 import styled from 'styled-components';
+
+import { colors } from '@theme/baseTheme';
 
 function CheckMark(): JSX.Element {
   return <Container />;

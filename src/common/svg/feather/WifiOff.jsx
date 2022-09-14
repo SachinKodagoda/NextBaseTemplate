@@ -12,8 +12,7 @@ function WifiOff() {
       strokeLinejoin='round'
       strokeWidth='2'
       viewBox='0 0 24 24'
-      xmlns='http://www.w3.org/2000/svg'
-    >
+      xmlns='http://www.w3.org/2000/svg'>
       <line x1='1' x2='23' y1='1' y2='23' />
       <line x1='12' x2='12.01' y1='20' y2='20' />
       <path d='M16.72 11.06A10.94 10.94 0 0 1 19 12.55' />

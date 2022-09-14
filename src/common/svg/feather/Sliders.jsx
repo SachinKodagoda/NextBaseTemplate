@@ -12,8 +12,7 @@ function Sliders() {
       strokeLinejoin='round'
       strokeWidth='2'
       viewBox='0 0 24 24'
-      xmlns='http://www.w3.org/2000/svg'
-    >
+      xmlns='http://www.w3.org/2000/svg'>
       <line x1='4' x2='4' y1='21' y2='14' />
       <line x1='4' x2='4' y1='10' y2='3' />
       <line x1='12' x2='12' y1='21' y2='12' />

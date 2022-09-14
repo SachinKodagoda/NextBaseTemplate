@@ -1,9 +1,12 @@
-import Button from '@components/Buttons/Button';
-import { devices } from '@theme/baseTheme';
+import React from 'react';
+
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import React from 'react';
 import styled from 'styled-components';
+
+import Button from '@components/Buttons/Button';
+import { devices } from '@theme/baseTheme';
+
 import error from '../../public/images/error_404.svg';
 
 function ErrorPage404(): JSX.Element {

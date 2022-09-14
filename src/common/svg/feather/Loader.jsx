@@ -12,8 +12,7 @@ function Loader() {
       strokeLinejoin='round'
       strokeWidth='2'
       viewBox='0 0 24 24'
-      xmlns='http://www.w3.org/2000/svg'
-    >
+      xmlns='http://www.w3.org/2000/svg'>
       <line x1='12' x2='12' y1='2' y2='6' />
       <line x1='12' x2='12' y1='18' y2='22' />
       <line x1='4.93' x2='7.76' y1='4.93' y2='7.76' />

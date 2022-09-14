@@ -1,3 +1,5 @@
+import styled from 'styled-components';
+
 import ArrowLeft from '@svg/feather/ArrowLeft';
 import ArrowRight from '@svg/feather/ArrowRight';
 import ArrowRightCircle from '@svg/feather/ArrowRightCircle';
@@ -21,8 +23,6 @@ import Instagram from '@svg/feather/Instagram';
 import Printer from '@svg/feather/Printer';
 import Twitter from '@svg/feather/Twitter';
 import User from '@svg/feather/User';
-
-import styled from 'styled-components';
 
 function icons(): JSX.Element {
   return (

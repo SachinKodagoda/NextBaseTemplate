@@ -12,8 +12,7 @@ function Aperture() {
       strokeLinejoin='round'
       strokeWidth='2'
       viewBox='0 0 24 24'
-      xmlns='http://www.w3.org/2000/svg'
-    >
+      xmlns='http://www.w3.org/2000/svg'>
       <circle cx='12' cy='12' r='10' />
       <line x1='14.31' x2='20.05' y1='8' y2='17.94' />
       <line x1='9.69' x2='21.17' y1='8' y2='8' />

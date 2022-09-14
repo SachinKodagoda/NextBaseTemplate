@@ -1,6 +1,7 @@
+import styled from 'styled-components';
+
 import ArrowRight from '@svg/feather/ArrowRight';
 import { colors } from '@theme/baseTheme';
-import styled from 'styled-components';
 
 type TArrow = {
   size: number;
@@ -36,8 +37,7 @@ function Button({
           type='button'
           arrow={arrow}
           background={background}
-          color={color}
-        >
+          color={color}>
           {text}&nbsp;{arrow && <ArrowRight />}
         </NormalBtn>
       )}
@@ -49,8 +49,7 @@ function Button({
             if (isDisabled) {
               e.preventDefault();
             }
-          }}
-        >
+          }}>
           {text}
         </SubmitBtn>
       )}

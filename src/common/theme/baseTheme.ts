@@ -2,42 +2,62 @@
 import { DefaultTheme } from 'styled-components';
 
 export const themeDark: DefaultTheme = {
+  colors: {},
   meta: {
     name: 'dark',
   },
-  colors: {},
 };
 
 export const themeLight: DefaultTheme = {
+  colors: {},
   meta: {
     name: 'light',
   },
-  colors: {},
 };
 
 export const themeNight: DefaultTheme = {
+  colors: {},
   meta: {
     name: 'night',
   },
-  colors: {},
 };
 
 export const widths = {
-  maxMobile: 576, // (for phones)
-  minTablet: 576, // (for tablet)
-  minTabletLC: 769, // (landscape of tablet)
-  minDesktopSM: 992, // (for small Laptop)
-  minDesktopLG: 1201, // (for large laptop)
-  min4K: 1441, // (for 4k)
+  maxMobile: 576,
+
+  // (for large laptop)
+  min4K: 1441,
+
+  // (for small Laptop)
+  minDesktopLG: 1201,
+
+  // (landscape of tablet)
+  minDesktopSM: 992,
+
+  // (for phones)
+  minTablet: 576,
+
+  // (for tablet)
+  minTabletLC: 769, // (for 4k)
 };
 
 export const devices = {
-  maxMobile: `only screen and (max-width: ${widths.maxMobile}px)`, // (for phones)
-  minTablet: `only screen and (min-width: ${widths.minTablet}px)`, // (for tablet)
-  minTabletLC: `only screen and (min-width: ${widths.minTabletLC}px)`, // (landscape of tablet)
-  minDesktopSM: `only screen and (min-width: ${widths.minDesktopSM}px)`, // (for small Laptop)
-  minDesktopLG: `only screen and (min-width: ${widths.minDesktopLG}px)`, // (for large laptop)
-  min4K: `only screen and (min-width: ${widths.min4K}px)`, // (for 4k)
+  maxMobile: `only screen and (max-width: ${widths.maxMobile}px)`,
+
+  // (for large laptop)
+  min4K: `only screen and (min-width: ${widths.min4K}px)`,
+
+  // (for small Laptop)
+  minDesktopLG: `only screen and (min-width: ${widths.minDesktopLG}px)`,
+
+  // (landscape of tablet)
+  minDesktopSM: `only screen and (min-width: ${widths.minDesktopSM}px)`,
+
+  // (for phones)
+  minTablet: `only screen and (min-width: ${widths.minTablet}px)`,
+
+  // (for tablet)
+  minTabletLC: `only screen and (min-width: ${widths.minTabletLC}px)`, // (for 4k)
 };
 
 type TColors = {
@@ -85,57 +105,64 @@ type TColors = {
 
 export const colors: TColors = {
   accent: 'rgba(28, 79, 141, 1)',
-  light_accent2: 'rgba(28, 79, 141, 0.5)',
-  light_accent1: 'rgba(28, 79, 141, 0.05)',
   activeText: '#08090a',
-  lightBackground: '#f1f1f1',
   backgroundColor: '#eef0f1',
   bg: '#eef0f1',
   black: '#08090a',
   blue: '#20639b',
   blue_dark: '#3b49df',
+  burlyWood: '#d5bf84',
   dark_blue: '#173f5f',
   dark_gray: '#b5bdc4',
   dark_green: '#247209',
   dark_red: '#800500',
+  davinci_dark_yellow: '#d9d3ca',
+  davinci_light_yellow: '#f3f2ef',
   disabledText: '#d3d3d3',
+
   goldenBrown: '#996515',
+
   gray1: '#f3f3f3',
-  gray2: '#dad8db', //
+
+  gray2: '#dad8db',
+  //
   gray3: '#b5bdc4',
   gray4: '#555555',
   green1: '#88d840',
   green2: '#3bdf72',
+  lightBackground: '#f1f1f1',
+  light_accent1: 'rgba(28, 79, 141, 0.05)',
+  light_accent2: 'rgba(28, 79, 141, 0.5)',
   light_gray: '#f7f7f7',
   light_gray2: '#fafafa',
   light_green: '#67b826',
   navbarBackground: '#fff',
+
   orange: '#f77f00',
-  red1: '#e10600', //
+
+  red1: '#e10600',
+  //
   red2: '#df3b3b',
   red3: '#d00',
   royalGold: '#f5bd02',
   text: '#08090a',
   white: '#fff',
-  yellow: '#fcbf49',
-  davinci_light_yellow: '#f3f2ef',
-  davinci_dark_yellow: '#d9d3ca',
   whiteSmoke1: '#f6f6f6',
   whiteSmoke2: '#f2f2f2',
   whiteSmoke3: '#f7f7f7',
-  burlyWood: '#d5bf84',
+  yellow: '#fcbf49',
 };
 
 export const misc = {
-  menuHeight: 60,
   fullWidth: widths.minDesktopLG - 1,
+  menuHeight: 60,
 };
 
 const theme = {
   colors,
   devices,
-  widths,
   misc,
+  widths,
 };
 
 export type TNoonTheme = typeof theme;

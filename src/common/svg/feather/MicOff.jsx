@@ -12,8 +12,7 @@ function MicOff() {
       strokeLinejoin='round'
       strokeWidth='2'
       viewBox='0 0 24 24'
-      xmlns='http://www.w3.org/2000/svg'
-    >
+      xmlns='http://www.w3.org/2000/svg'>
       <line x1='1' x2='23' y1='1' y2='23' />
       <line x1='12' x2='12' y1='19' y2='23' />
       <line x1='8' x2='16' y1='23' y2='23' />

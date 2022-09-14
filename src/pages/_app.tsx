@@ -1,13 +1,15 @@
-import '@styles/globals.css';
-import theme from '@theme/baseTheme';
+import React from 'react';
+
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { Router } from 'next/router';
 import NProgress from 'nprogress';
 import 'nprogress/nprogress.css';
-import React from 'react';
 import { Toaster } from 'react-hot-toast';
 import { ThemeProvider } from 'styled-components';
+
+import '@styles/globals.css';
+import theme from '@theme/baseTheme';
 
 NProgress.configure({ showSpinner: false });
 Router.events.on('routeChangeStart', () => {

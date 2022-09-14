@@ -1,6 +1,8 @@
-import { colors, devices } from '@theme/baseTheme';
 import React from 'react';
+
 import styled from 'styled-components';
+
+import { colors, devices } from '@theme/baseTheme';
 
 type TProps = {
   menuOpened: boolean;
@@ -11,8 +13,7 @@ function Cross({ clickHandler, menuOpened }: TProps): JSX.Element {
     <Container
       className={`${(menuOpened as boolean) ? 'open' : ''}`}
       type='button'
-      onClick={() => clickHandler(state => !state)}
-    >
+      onClick={() => clickHandler(state => !state)}>
       <span />
       <span />
       <span />

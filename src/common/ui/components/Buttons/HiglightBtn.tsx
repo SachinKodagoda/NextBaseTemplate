@@ -1,6 +1,8 @@
-import { colors } from '@theme/baseTheme';
 import React from 'react';
+
 import styled from 'styled-components';
+
+import { colors } from '@theme/baseTheme';
 
 type TProps = {
   children: JSX.Element | string;

@@ -12,8 +12,7 @@ function Sunrise() {
       strokeLinejoin='round'
       strokeWidth='2'
       viewBox='0 0 24 24'
-      xmlns='http://www.w3.org/2000/svg'
-    >
+      xmlns='http://www.w3.org/2000/svg'>
       <path d='M17 18a5 5 0 0 0-10 0' />
       <line x1='12' x2='12' y1='2' y2='9' />
       <line x1='4.22' x2='5.64' y1='10.22' y2='11.64' />

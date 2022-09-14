@@ -1,7 +1,9 @@
-import { colors } from '@theme/baseTheme';
-import Link from 'next/link';
 import React from 'react';
+
+import Link from 'next/link';
 import styled from 'styled-components';
+
+import { colors } from '@theme/baseTheme';
 
 type TProps = {
   passHref?: boolean;
