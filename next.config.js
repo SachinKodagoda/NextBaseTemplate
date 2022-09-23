@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
+  // swcMinify: true,
+  compiler: {
+    styledComponents: true,
+    swcMinify: true,
+  },
   images: {
     domains: ['google.com'],
   },
